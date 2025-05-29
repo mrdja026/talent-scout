@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light theme with light gray background */
+  --background: 210 20% 98%;
+  --foreground: 224 71% 4%;
+  --muted: 220 14% 96%;
+  --muted-foreground: 220 8% 46%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 224 71% 4%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 71% 4%;
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --primary: 210 100% 50%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 47% 11%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 215 20% 65%;
+  --radius: 0.5rem;
+  
+  /* Custom colors for the app */
+  --neutral: 220 14% 22%;
+  --neutral-dark: 220 14% 18%;
+  --status-success: 142 76% 45%;
+  --status-warning: 38 92% 50%;
+  --status-error: 0 84% 60%;
+  --status-info: 210 100% 50%;
+}
+
+.dark {
+  --background: 225 6% 13%;
+  --foreground: 210 40% 98%;
+  --muted: 225 6% 18%;
+  --muted-foreground: 215 20% 65%;
+  --popover: 225 6% 13%;
+  --popover-foreground: 210 40% 98%;
+  --card: 225 6% 16%;
+  --card-foreground: 210 40% 98%;
+  --border: 215 27% 25%;
+  --input: 215 27% 25%;
+  --primary: 210 100% 50%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 215 27% 25%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 215 27% 25%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 215 20% 65%;
+  --radius: 0.5rem;
+  
+  /* Custom colors for the app in dark mode */
+  --neutral: 220 14% 22%;
+  --neutral-dark: 220 14% 18%;
+  --status-success: 142 76% 45%;
+  --status-warning: 38 92% 50%;
+  --status-error: 0 84% 60%;
+  --status-info: 210 100% 50%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
