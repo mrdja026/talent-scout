@@ -10,4 +10,4 @@ Node
 Python
 
 ** Current state **
-![Imgur link](https://imgur.com/VY3IIH3)
+[](attached_assets/firefox_k4wtmshSHl.gif)
