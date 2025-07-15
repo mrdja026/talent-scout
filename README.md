@@ -10,4 +10,4 @@ Node
 Python
 
 ** Current state **
-[](attached_assets/firefox_k4wtmshSHl.gif)
+[GIF](https://github.com/mrdja026/talent-scout/blob/main/attached_assets/firefox_k4wtmshSHl.gif))
